@@ -1,0 +1,38 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#background
+{
+    background-color: #0b192e;
+}
+
+.mainContainer
+{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.infoContainer
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mediumText
+{
+    font-size: 1.5em;
+    color: #70c3bf;
+  
+}
+
+.bigText
+{
+    font-size: 4em;
+    font-weight: 700;
+    color: #cbd8f4;
+    margin: 0;
+}
