@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6163e00b.css",
-    "main.js": "/portfolio/static/js/main.cb3c4b26.js",
-    "static/js/787.a2cb61a6.chunk.js": "/portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/unisaEAT.gif": "/portfolio/static/media/unisaEAT.e69e6246156981e3e5f2.gif",
-    "static/media/sortAlg.gif": "/portfolio/static/media/sortAlg.c1686ba50741cbcf441f.gif",
-    "static/media/snake.gif": "/portfolio/static/media/snake.5cccd9cb7243d444f33f.gif",
-    "static/media/react.png": "/portfolio/static/media/react.daae3e094212712ac94b.png",
-    "static/media/cinema.png": "/portfolio/static/media/cinema.eaf305f8565ad47b0e3c.png",
-    "static/media/unity.png": "/portfolio/static/media/unity.019f8df7ed8f6732ddc1.png",
-    "static/media/me.jpeg": "/portfolio/static/media/me.83ce0d21e2a48ceaa850.jpeg",
-    "static/media/coding.png": "/portfolio/static/media/coding.058b87d7f2ae70ac8071.png",
-    "static/media/game.png": "/portfolio/static/media/game.1f274767c050f085983c.png",
-    "static/media/music.png": "/portfolio/static/media/music.2e2b4487f13eb284bb7e.png",
-    "index.html": "/portfolio/index.html",
-    "main.6163e00b.css.map": "/portfolio/static/css/main.6163e00b.css.map",
-    "main.cb3c4b26.js.map": "/portfolio/static/js/main.cb3c4b26.js.map",
-    "787.a2cb61a6.chunk.js.map": "/portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.6163e00b.css",
+    "main.js": "/static/js/main.afd92e70.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/unisaEAT.gif": "/static/media/unisaEAT.e69e6246156981e3e5f2.gif",
+    "static/media/sortAlg.gif": "/static/media/sortAlg.c1686ba50741cbcf441f.gif",
+    "static/media/snake.gif": "/static/media/snake.5cccd9cb7243d444f33f.gif",
+    "static/media/react.png": "/static/media/react.daae3e094212712ac94b.png",
+    "static/media/cinema.png": "/static/media/cinema.eaf305f8565ad47b0e3c.png",
+    "static/media/unity.png": "/static/media/unity.019f8df7ed8f6732ddc1.png",
+    "static/media/me.jpeg": "/static/media/me.83ce0d21e2a48ceaa850.jpeg",
+    "static/media/coding.png": "/static/media/coding.058b87d7f2ae70ac8071.png",
+    "static/media/game.png": "/static/media/game.1f274767c050f085983c.png",
+    "static/media/music.png": "/static/media/music.2e2b4487f13eb284bb7e.png",
+    "index.html": "/index.html",
+    "main.6163e00b.css.map": "/static/css/main.6163e00b.css.map",
+    "main.afd92e70.js.map": "/static/js/main.afd92e70.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6163e00b.css",
-    "static/js/main.cb3c4b26.js"
+    "static/js/main.afd92e70.js"
   ]
 }
