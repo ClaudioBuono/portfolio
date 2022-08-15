@@ -7,6 +7,7 @@ import '../styles/aboutMe.css'
 import '../assets/interestsIcons/game.png'
 import '../assets/interestsIcons/cinema.png'
 import '../assets/interestsIcons/coding.png'
+import { Link } from "react-router-dom";
 
 function AboutMe() {
 
@@ -35,7 +36,7 @@ function AboutMe() {
                     <Fade up> 
                     <div className="infoContainerButtons">                 
                         <Button className="whiteOutlinedButton" onClick={()=>{saveManual()}} variant="outlined">Download CV</Button>     
-                        <Button className="whiteOutlinedButton" variant="outlined"><a href="/ContactMe"> CONTACT ME</a></Button>       
+                        <Button className="whiteOutlinedButton" variant="outlined"><Link to="/ContactMe"> CONTACT ME</Link></Button>       
                     </div>
                     </Fade>
                     <div className="interestsContainer">

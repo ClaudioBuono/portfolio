@@ -6,7 +6,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { slide as Menu } from 'react-burger-menu';
-import DarkMode from './Darkmode';
 import {NavLink } from 'react-router-dom';
 
 import '../styles/burgerMenu.css';
@@ -61,7 +60,6 @@ function Navbar(props: Props) {
             <NavLink to='/ContactMe' className={({ isActive }) => (isActive ? "hvr-underline-reveal_active" : "hvr-underline-reveal")} ><span>Contact</span></NavLink>              
           </Box>
           
-          <DarkMode/>
           
         </Toolbar>
       </AppBar>

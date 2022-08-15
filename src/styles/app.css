@@ -17,3 +17,19 @@
     border-radius: 10px;
   }
 
+  
+:root {
+    --font-color: #eee;
+    --background-color: #181b1f;
+    --link-color: lightblue;
+  
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+a {
+  color: var(--link-color);
+}
