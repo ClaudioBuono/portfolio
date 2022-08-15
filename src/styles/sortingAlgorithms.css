@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+.projectContainer
+{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.infoContainer
+{
+    margin-top: 7%;
+}
+.title
+{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 1.6em;
+}
+.description
+{
+    margin-top: 40px;
+}
+
+.description h6
+{
+    font-size: 1.2em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    
+}
+
+.description p
+{
+    margin-left: 10px
+}
+
+.languages
+{
+    height: 40px;
+}
+
+.languages h6
+{
+    font-size: 1.2em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+.languages img
+{
+    max-width:100%;
+    max-height:100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.algorithmBlockContainer
+{
+    
+    width: 50%;
+    margin: 0 auto;
+}
+
+#defaultCanvas0
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.controllerContainer
+{
+    
+    margin: 0 auto;
+    margin-top: 6%;
+    width: 50%;
+    text-align: center;
+    
+    
+}
+.controllerButtons
+{
+    color: rgba(245, 245, 245, 0.814) !important;
+    border-color: rgba(245, 245, 245, 0.814) !important;
+}
+
+.slider
+{
+
+    color: rgba(245, 245, 245, 0.814) !important;
+}
+.algorithmContainer
+{
+    margin-top: 50px;
+}
+
+.algorithmContainer p
+{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

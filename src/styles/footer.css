@@ -1,0 +1,13 @@
+.footer {
+    background-color: #ff6600b1;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+
+.socialButtons a ::hover
+{
+  text-decoration: none;
+  color: red;
+}

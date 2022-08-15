@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap');
+
+
+#nextPageContainer
+{
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 20%;
+}
+
+#nextPageContainer p
+{
+    font-size: 1.6em;
+    color: rgba(221, 221, 221, 0.856);
+}
+
+#giantName{
+    font-size: 100px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    width: fit-content;
+    margin-bottom: 0px;
+    margin-top: 20%;
+
+}
+
+#nameContainer
+{
+    margin-left: 10%;
+    width: fit-content;
+}
+
+#nameContainer hr
+{
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+
+#nameDesc
+{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    width: fit-content;
+    margin: 0%;
+    padding-left: 10px;
+}
+
+#nameDesc span
+{
+    color: #ff6600
+}
+
+#descriptionContainer
+{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: rgba(233, 233, 233, 0.867);
+}
+
+#descriptionContainer p
+{
+    margin: 10px;
+}
+
+#descriptionContainer a
+{
+    text-decoration: none;
+}
+
+#descriptionContainer span
+{
+    color: #ff6600d3;
+}
+
+#funnyQuote
+{
+    padding-top: 5%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.underlineCustomOrange
+{
+    margin: 0 auto;
+    width: 13%;
+    background-color: #ff6600d3;
+    height: 4px !important;
+    opacity: 1 !important; 
+}
+
+.aws-btn {
+
+    --button-default-height: 48px;
+    --button-default-font-size: 14px;
+    --button-default-border-radius: 6px;
+    --button-horizontal-padding: 20px;
+    --button-raise-level: 5px;
+    --button-hover-pressure: 2;
+    --transform-speed: 0.185s;
+    --button-primary-color: #28334d;
+    --button-primary-color-dark: #2a3143;
+    --button-primary-color-light: #d4d9e4;
+    --button-primary-color-hover: #424e6a;
+    --button-primary-border: none;
+    --button-secondary-color: #fffc6c;
+    --button-secondary-color-dark: #b9b500;
+    --button-secondary-color-light: #6c6a00;
+    --button-secondary-color-hover: #fffb3e;
+    --button-secondary-border: none;
+    --button-anchor-color: #f3c8ad;
+    --button-anchor-color-dark: #734922;
+    --button-anchor-color-light: #4c3016;
+    --button-anchor-color-hover: #f1bfa0;
+    --button-anchor-border: 1px solid #8c633c;
+    }
+
+.aws-btn .aws-btn__content > span:nth-child(1) {
+    backface-visibility: visible;
+    transform: none;
+}
+
+.languagesLabelTitle
+{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+
+.languagesLabel
+{
+    font-size: 1.2em;
+    margin-top: 100px;
+    font-weight: 400;
+    color: #d4d9e4;
+}
+
+.languagesMainContainer
+{
+    background-color: #222a35;
+    width: 100%;
+    height: 80%;
+}
+
+.languagesMainContainer i
+{
+    font-size: 60px;
+}
+
+.languagesSecondaryContainer
+{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.languagesSecondaryContainer img
+{
+    width: 8%;
+    margin-left: 5%;
+}
+
+.languageContainer
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.languageContainer i
+{
+    text-align: center;
+}
+
+.languageContainer h6
+{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 0.25em;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.scroll-downs {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width :34px;
+    height: 55px;
+    margin-top: 9.5%;
+    margin-bottom: 2%;
+  }
+  .mousey {
+    width: 3px;
+    padding: 3px 9px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 8px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+
+  
+@media only screen and (max-width: 600px) {
+    #giantName{
+       margin-top: 20%;
+       line-height: 100%;
+    }
+
+    #nameDesc
+    {
+    font-size: 1.4em;
+    margin-top: 5%;
+    }
+
+    hr{
+        width: 95%;
+    }
+    #cvContainer
+    {
+        margin-top: 10%;
+        margin-bottom: 20%;
+        margin-left: 25%;
+    }
+}

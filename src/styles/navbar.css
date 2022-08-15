@@ -1,0 +1,28 @@
+
+@media only screen and (min-width: 1280px) {
+    .navbarContainer
+    {
+        background: #181b1f; 
+        box-shadow: none
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navButtons
+    {
+        display: none;
+    }
+}
+
+.hvr-underline-reveal_active {
+  text-decoration: none;
+  border-bottom: 3px solid #ff6600;
+  margin: 15px;
+  padding-bottom: 2px;
+  position: relative;
+}
+
+a{
+    color: white !important;
+}
+  

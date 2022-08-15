@@ -1,0 +1,38 @@
+
+#projectsContainer
+{
+    width: 100%;
+    margin-bottom: 10%;
+}
+.projectsBox
+{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.boxTitle
+{
+    height: 1.5em;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.boxTitle img
+{
+    max-width:100%;
+    max-height:100%;
+}
+.boxTitle span
+{
+    margin-left: 20px;
+}
+.cardBoxContainer
+{
+    margin-top: 40px;
+}
+.cardBox
+{
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 0.2rem;
+}
