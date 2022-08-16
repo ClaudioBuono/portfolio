@@ -9,6 +9,7 @@ import GraphsAlgorithmsVisualized from "./pages/GraphsAlgorithmsVisualized";
 import ScrollToTop from "./components/ScrollToTop";
 import { ToastProvider } from 'react-toast-notifications';
 import "../src/styles/app.css"
+import "../src/styles/mobileResponsive.css"
 
 
 
