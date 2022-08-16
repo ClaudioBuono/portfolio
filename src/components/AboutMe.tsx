@@ -1,13 +1,14 @@
 import { Avatar, Button } from "@mui/material";
 import Fade from 'react-reveal/Fade'
 import { saveAs } from 'file-saver';
+import { Link } from "react-router-dom";
 import '../styles/aboutMe.css'
 
 // Interests icons
 import '../assets/interestsIcons/game.png'
 import '../assets/interestsIcons/cinema.png'
 import '../assets/interestsIcons/coding.png'
-import { Link } from "react-router-dom";
+
 
 function AboutMe() {
 
