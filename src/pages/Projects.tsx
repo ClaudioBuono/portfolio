@@ -81,6 +81,35 @@ function Projects() {
                                     </Card>
                                 </div>
                             </motion.div>
+
+                            <motion.div
+                                whileHover={{scale:1.2}}
+                                style={{display:"inline-block"}}
+                            >
+                                <div className="cardBox">
+                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
+                                    <CardMedia
+                                        component="img"
+                                        height="160"
+                                        image="https://i.gifer.com/FooP.gif"
+                                        alt="graphAlg"
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="div">
+                                        Terrain generation
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                        Visualized graphs algorithms using p5.js, including shortest path algorithms, trees and more...
+                                        </Typography>
+                                    </CardContent>
+                                    <CardActions>
+                                        <Link to="/Projects/TerrainGeneration">
+                                            <Button size="small">Show More</Button>
+                                        </Link>
+                                    </CardActions>
+                                    </Card>
+                                </div>
+                            </motion.div>
                         </div>
                     </div>
 

@@ -1,0 +1,32 @@
+.algorithmTerrainBlockContainer
+{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.algorithmTerrainContainer
+{
+
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+.algorithmControllerContainer
+{
+    margin-top: 50px;
+}
+.mapSizeController
+{
+    
+    width: 30%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.p5Canvas
+{
+    border-radius: 8px;
+}

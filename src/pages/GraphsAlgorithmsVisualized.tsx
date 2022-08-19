@@ -22,6 +22,8 @@ function GraphsAlgorithmsVisualized() {
                 </div>
                 <div className="languages">
                     <h6>Languages</h6>
+                        <img alt="p5" src={require("../assets/languagesIcons/p5.png")}/> 
+                        <img alt="react" src={require("../assets/languagesIcons/react.png")}/> 
                         
                 </div>
 

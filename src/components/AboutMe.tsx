@@ -37,7 +37,7 @@ function AboutMe() {
                     <Fade up> 
                     <div className="infoContainerButtons">                 
                         <Button className="whiteOutlinedButton" onClick={()=>{saveManual()}} variant="outlined">Download CV</Button>     
-                        <Button className="whiteOutlinedButton" variant="outlined"><Link to="/ContactMe"> CONTACT ME</Link></Button>       
+                        <Link to="/ContactMe"><Button className="whiteOutlinedButton" variant="outlined"> CONTACT ME</Button></Link>
                     </div>
                     </Fade>
                     <div className="interestsContainer">
