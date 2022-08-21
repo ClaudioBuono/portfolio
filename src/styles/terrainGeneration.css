@@ -30,3 +30,19 @@
 {
     border-radius: 8px;
 }
+
+.generateMapButton
+{
+    background-color: white !important;
+    border-radius: 5px !important;
+    color: black !important;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked
+{
+    color: white !important;
+}
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root
+{
+    color: white !important;
+}

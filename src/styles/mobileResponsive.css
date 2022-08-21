@@ -145,25 +145,56 @@
 
     .projectContainer
     {
-        width: 100%;
         margin-top: 30%;
         margin-bottom: 30%;
     }
+
+    .css-3fjwge
+    {
+        width: 80% !important;
+    }
+    .css-exkjcx
+    {
+        width: 80% !important;
+    }
+
     .algorithmBlockContainer
     {
         width: 100%;
     }
+
+    .algorithmTerrainBlockContainer
+    {
+        margin-top: 30% !important;
+    }
+
+    .algorithmTerrainContainer
+    {
+        margin-top: 20px;
+    }
+
+    .mapSizeController
+    {
+        width: 100% !important;
+    }
     #defaultCanvas0
     {
-        width: 300px !important;
-        height: 200px !important;
+        width: 100% !important;
+        height: 100% !important;
     }
+
+    #defaultCanvas1
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
 
     .description
     {
         width: 90%;
         margin: 0 auto;
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
     .languages
@@ -193,8 +224,6 @@
     {
         text-align: center;
     }
-    .css-187mznn-MuiSlider-root
-    {
-        width: 80% !important;
-    }
+
+
 }

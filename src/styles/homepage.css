@@ -12,13 +12,13 @@
     position: absolute;
     right: 0;
     margin-right: 5%;
-    margin-top: 20%;
+    margin-top: 23%;
 }
 
 #nextPageContainer p
 {
     font-size: 1.6em;
-    color: rgba(221, 221, 221, 0.856);
+    color: rgba(221, 221, 221, 0.892);
 }
 
 #giantName{
@@ -29,7 +29,7 @@
     font-weight: 600;
     width: fit-content;
     margin-bottom: 0px;
-    margin-top: 20%;
+    margin-top: 25%;
 
 }
 

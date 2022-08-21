@@ -15,9 +15,11 @@ function GraphsAlgorithmsVisualized() {
                 <div className="description">
                     <h6>Project description</h6>
                     <p>
-                    This project aims to show how sorting algorithms work, visualizing every step the algorithm makes.
+                    This project aims to show how graphs algorithms work, visualizing every step the algorithm makes.
                         <br></br>
-                    It's possible to pick different sorting algorithms and the number of elements to sort. 
+                    WIP : Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph
+                    <br></br>
+                    It's possible to add a new node and the algorithm will find the shortest path connecting the nodes.
                     </p>
                 </div>
                 <div className="languages">

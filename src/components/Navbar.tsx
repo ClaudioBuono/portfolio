@@ -34,21 +34,15 @@ function Navbar(props: Props) {
     <Box sx={{ display: 'flex'}}>
       <Menu>
         <Box sx={{ marginRight:'40px',display: {sm: 'block'} }}>
-          <Button sx={{color: '#fff',padding: '10px',display:'block'}}>
             <NavLink to='/' className={({ isActive }) => (isActive ? "hvr-underline-reveal_active" : "hvr-underline-reveal")}>
               Home
-            </NavLink>
-          </Button>
-          <Button sx={{color: '#fff',padding: '10px',display:'block'}}>
+            </NavLink>     
             <NavLink to='/Projects' className={({ isActive }) => (isActive ? "hvr-underline-reveal_active" : "hvr-underline-reveal")}>
               Projects
-            </NavLink>
-          </Button>
-          <Button sx={{color: '#fff',padding: '10px',display:'block'}}>
+            </NavLink>         
             <NavLink to='/ContactMe' className={({ isActive }) => (isActive ? "hvr-underline-reveal_active" : "hvr-underline-reveal")}>
               Contact
             </NavLink>
-          </Button>
         </Box>
       </Menu>
       <AppBar position="fixed" component="nav" className="navbarStyle" style={{background: 'rgb(24, 27, 31,0.3)', boxShadow: "none",}}>

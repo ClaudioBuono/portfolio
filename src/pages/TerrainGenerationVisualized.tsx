@@ -1,18 +1,18 @@
 import "../styles/sortingAlgorithms.css";
 import "react-awesome-button/dist/styles.css";
+import "../styles/terrainGeneration.css"
 
 import * as terrainGen from "../components/TerrainGeneration";
 import * as terrainGenColored from "../components/TerrainGenerationColored";
 
-import "../styles/terrainGeneration.css"
-import { Button, FormLabel, Slider } from "@mui/material";
-import { Fragment, useState } from "react";
+import { Button } from "@mui/material";
+import { useState } from "react";
 import { ReactP5Wrapper } from "react-p5-wrapper";
 
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import FormControl from '@mui/material/FormControl';
+
 function TerrainGenerationVisualized() {
 
     const [mapSize,setMapSize] = useState(50)
@@ -54,7 +54,7 @@ function TerrainGenerationVisualized() {
                     
                 <div className="algorithmTerrainContainer">  
                     <div id="terrain">                                   
-                        <ReactP5Wrapper sketch={terrainGen.sketch} mapSeed={mapSeed} mapSize={1/mapSize} />
+                        <ReactP5Wrapper class="terrain1" sketch={terrainGen.sketch} mapSeed={mapSeed} mapSize={1/mapSize} />
                     </div> 
                 </div>
                 <div className="algorithmTerrainContainer">
@@ -63,7 +63,7 @@ function TerrainGenerationVisualized() {
                     </div>    
                 </div>
                 <div className="algorithmControllerContainer">
-                <Button onClick={changeSeed}>Generate new map</Button> 
+                <Button className="generateMapButton" onClick={changeSeed}>Generate new map</Button> 
                     <div className="mapSizeController">
                         <p>Map size</p>
                         <RadioGroup

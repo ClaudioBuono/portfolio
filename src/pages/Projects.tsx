@@ -99,7 +99,7 @@ function Projects() {
                                         Terrain generation
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                        Visualized graphs algorithms using p5.js, including shortest path algorithms, trees and more...
+                                        Random generated terrains using Perlin noise to generate biomes and simulate maps with oceans and plains. 
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
@@ -138,7 +138,7 @@ function Projects() {
                                         UnisaEAT
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                        Software Enginering project, realized with a squad of 7 students and 2 project managers, a website for the my universtity canteen.
+                                        Software Enginering project, developed with a squad of 7 students and 2 project managers, provided of full documentation and a repository.
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
@@ -166,7 +166,7 @@ function Projects() {
                                         GameNyx
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                        Videogames E-commerce developed for the web developement university course...
+                                        Videogames e-commerce website developed for my university web development course. PS. It's not possible to buy videogames
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
@@ -204,7 +204,7 @@ function Projects() {
                                         MultiSnake
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
-                                        Classic snake game recreated in 3D with multiplayer.
+                                        Classic snake game recreated in 3D with multiplayer feature.
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
