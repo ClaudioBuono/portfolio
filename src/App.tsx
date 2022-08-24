@@ -6,12 +6,13 @@ import ContactMe from "./pages/ContactMe";
 import Projects from "./pages/Projects";
 import SortingAlgorithmsVisualized from "./pages/SortingAlgorithmsVisualized";
 import GraphsAlgorithmsVisualized from "./pages/GraphsAlgorithmsVisualized";
+import TerrainGenerationVisualized from "./pages/TerrainGenerationVisualized";
 
 import ScrollToTop from "./components/ScrollToTop";
 import { ToastProvider } from 'react-toast-notifications';
+
 import "../src/styles/app.css"
 import "../src/styles/mobileResponsive.css"
-import TerrainGenerationVisualized from "./pages/TerrainGenerationVisualized";
 
 
 

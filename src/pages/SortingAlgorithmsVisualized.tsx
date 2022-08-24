@@ -1,8 +1,8 @@
-import "../styles/sortingAlgorithms.css";
-import SortingAlgorithms from "../components/SortingAlgorithms"
+import SortingAlgorithms from "../components/algorithmsComponents/SortingAlgorithms"
 import { useState } from "react";
-import "react-awesome-button/dist/styles.css";
 import { Button, ButtonGroup, Slider } from "@mui/material";
+
+import "../styles/sortingAlgorithms.css";
 
 function SortingAlgorithmsVisualized() {
 

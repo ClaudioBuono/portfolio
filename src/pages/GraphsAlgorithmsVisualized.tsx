@@ -1,6 +1,6 @@
 import "../styles/sortingAlgorithms.css";
 import "react-awesome-button/dist/styles.css";
-import GraphsAlgorithms from "../components/GraphsAlgorithms";
+import GraphsAlgorithms from "../components/algorithmsComponents/GraphsAlgorithms";
 
 function GraphsAlgorithmsVisualized() {
 

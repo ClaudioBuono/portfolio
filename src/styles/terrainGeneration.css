@@ -38,11 +38,7 @@
     color: black !important;
 }
 
-.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked
-{
-    color: white !important;
-}
-.css-vqmohf-MuiButtonBase-root-MuiRadio-root
+.MuiRadio-root
 {
     color: white !important;
 }

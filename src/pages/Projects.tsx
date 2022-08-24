@@ -1,6 +1,3 @@
-import '../styles/projects.css';
-import '../styles/hover.css';
-
 import Fade from 'react-reveal/Fade';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -11,6 +8,8 @@ import { CardMedia } from "@mui/material";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
+import '../styles/projects.css';
+import '../styles/hover.css';
 
 
 function Projects() {

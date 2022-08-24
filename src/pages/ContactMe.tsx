@@ -1,14 +1,15 @@
 import { Button, TextField } from '@mui/material';
 import Fade from 'react-reveal/Fade';
 import emailjs from '@emailjs/browser';
+import { useToasts } from 'react-toast-notifications';
 
+// Socials icons
 import {BsGithub} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import {BsDiscord} from 'react-icons/bs'
 import {BsTelegram} from 'react-icons/bs'
 
 import '../styles/contact.css'
-import { useToasts } from 'react-toast-notifications';
 
 function ContactMe () {
     

@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import { slide as Menu } from 'react-burger-menu';
 import {NavLink } from 'react-router-dom';
 
@@ -67,8 +66,6 @@ function Navbar(props: Props) {
             <NavLink to='/Projects' className={({ isActive }) => (isActive ? "hvr-underline-reveal_active" : "hvr-underline-reveal")} ><span>Projects</span></NavLink>
             <NavLink to='/ContactMe' className={({ isActive }) => (isActive ? "hvr-underline-reveal_active" : "hvr-underline-reveal")} ><span>Contact</span></NavLink>              
           </Box>
-          
-          
         </Toolbar>
       </AppBar>
     </Box>

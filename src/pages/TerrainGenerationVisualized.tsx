@@ -1,9 +1,5 @@
-import "../styles/sortingAlgorithms.css";
-import "react-awesome-button/dist/styles.css";
-import "../styles/terrainGeneration.css"
-
-import * as terrainGen from "../components/TerrainGeneration";
-import * as terrainGenColored from "../components/TerrainGenerationColored";
+import * as terrainGen from "../components/algorithmsComponents/TerrainGeneration";
+import * as terrainGenColored from "../components/algorithmsComponents/TerrainGenerationColored";
 
 import { Button } from "@mui/material";
 import { useState } from "react";
@@ -12,6 +8,10 @@ import { ReactP5Wrapper } from "react-p5-wrapper";
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
+
+import "../styles/sortingAlgorithms.css";
+import "react-awesome-button/dist/styles.css";
+import "../styles/terrainGeneration.css"
 
 function TerrainGenerationVisualized() {
 

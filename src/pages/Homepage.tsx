@@ -91,6 +91,7 @@ function Homepage()
             </p>  
             
               <p className="languagesLabel">Frontend</p>
+
               <Fade up>
                 <div className="languageContainer">             
                   <i className="devicon-html5-plain hvr-grow">
@@ -113,6 +114,7 @@ function Homepage()
                   </i>
                 </div>
               </Fade>
+              
               <Fade up>
               <p className="languagesLabel">Backend</p>
                 <div className="languageContainer ">             

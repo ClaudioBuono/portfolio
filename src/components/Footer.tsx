@@ -1,14 +1,12 @@
 
-import '../styles/footer.css';
 import {BsGithub} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import {BsDiscord} from 'react-icons/bs'
 import {BsTelegram} from 'react-icons/bs'
+import {MDBFooter,MDBContainer,} from 'mdb-react-ui-kit';
 
-import {
-  MDBFooter,
-  MDBContainer,
-} from 'mdb-react-ui-kit';
+import '../styles/footer.css';
+
 
 function Footer() {
   return (
@@ -30,8 +28,6 @@ function Footer() {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', fontSize:'15px' }}>
         © 2022 All copyrights reserved to Claudio Buono
-        <a className='text-white' href='https://mdbootstrap.com/'>
-        </a>
       </div>
     </MDBFooter>
   );
