@@ -47,10 +47,12 @@ function AboutMe() {
                         <div className="interestsButtonsContainer">
                         <Fade up>
                             {  
+                            
                                 interests.map((interest,i)=>{                     
                                     return(
                                         <div className="interestBlock">
                                             <div className="inner">
+                                                                                               
                                             <img alt="i" src={require("../assets/interestsIcons/"+`${interest}`+".png")}></img>
                                             <div className="interestTitle">{interest}</div>
                                             </div>

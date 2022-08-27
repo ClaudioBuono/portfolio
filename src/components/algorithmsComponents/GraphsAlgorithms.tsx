@@ -8,7 +8,7 @@ const GraphsAlgorithms = (props) => {
     const WIDTH = 400
     const HEIGHT = 400
 
-    var vertices = new Array()
+    var vertices : any[] = []
 
 	//See annotations in JS for more information
     const setup = (p5: p5Types, canvasParentRef: Element) => {
@@ -31,9 +31,9 @@ const GraphsAlgorithms = (props) => {
 
 	const draw = async (p5: p5Types) => {
 
-        var reached = new Array()
+        var reached : any[] = []
         // Nodi non esplorati
-        var unreached = new Array()
+        var unreached : any[] = []
 
         // Aggiunge i tutti i nodi a quelli non esplorati
         for(let i = 0;i < vertices.length;i++){

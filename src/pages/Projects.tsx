@@ -141,7 +141,7 @@ function Projects() {
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">Show More</Button>
+                                        <Button size="small">WIP</Button>
                                     </CardActions>
                                     </Card>
                                 </div>
@@ -169,7 +169,7 @@ function Projects() {
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">Show More</Button>
+                                        <Button size="small">WIP</Button>
                                     </CardActions>
                                     </Card>
                                 </div>
@@ -207,7 +207,7 @@ function Projects() {
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">Show More</Button>
+                                        <Button size="small">WIP</Button>
                                     </CardActions>
                                     </Card>
                                 </div>
