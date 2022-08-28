@@ -25,7 +25,7 @@ const GraphsAlgorithms = (props) => {
             var v = p5.createVector(Math.floor(Math.random() * (WIDTH-50) + 50),Math.floor(Math.random() * (HEIGHT-50) + 50))
             vertices.push(v)
          }
-        
+
     };
 
 

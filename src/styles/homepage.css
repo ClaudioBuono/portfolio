@@ -156,6 +156,7 @@
     background-color: #222a35;
     width: 100%;
     height: 80%;
+    padding-bottom: 15%;
 }
 
 .languagesMainContainer i
@@ -167,7 +168,6 @@
 {
     width: 50%;
     margin: 0 auto;
-    padding-bottom: 10%;
 }
 
 .languagesSecondaryContainer img
@@ -188,14 +188,46 @@
     text-align: center;
 }
 
-.languageContainer h6
+.languageBox
+{
+    
+    text-align: center;
+}
+
+.languageBox svg
+{
+    width: 60px;
+}
+
+.languageBox > svg *
+{
+    fill: white;
+}
+
+
+.languageBox:hover > svg *
+{
+    width: 60px;
+    fill: #ff6600d3;
+}
+
+.languageBox:hover > h6 
+{
+    color: #ff6600d3;
+}
+
+
+.languageBox h6
 {
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 0.25em;
+    font-size: 1em;
     font-weight: 600;
     padding-top: 10px;
 }
+
+
+
 
 .scroll-downs {
     position: relative;
@@ -232,5 +264,7 @@
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
   }
+
+ 
 
   
