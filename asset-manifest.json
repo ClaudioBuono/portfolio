@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.35a0f87d.css",
-    "main.js": "/portfolio/static/js/main.6a566c3b.js",
+    "main.css": "/portfolio/static/css/main.99e84e01.css",
+    "main.js": "/portfolio/static/js/main.1e026769.js",
     "static/js/787.a2cb61a6.chunk.js": "/portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/graphAlg.gif": "/portfolio/static/media/graphAlg.4e19530d72f6268abab4.gif",
     "static/media/unisaEAT.gif": "/portfolio/static/media/unisaEAT.e69e6246156981e3e5f2.gif",
+    "static/media/terrainGenerator.gif": "/portfolio/static/media/terrainGenerator.6eb9952a2a6086039ed5.gif",
     "static/media/sortAlg.gif": "/portfolio/static/media/sortAlg.c1686ba50741cbcf441f.gif",
     "static/media/snake.gif": "/portfolio/static/media/snake.5cccd9cb7243d444f33f.gif",
     "static/media/react.png": "/portfolio/static/media/react.daae3e094212712ac94b.png",
@@ -14,12 +16,12 @@
     "static/media/game.png": "/portfolio/static/media/game.1f274767c050f085983c.png",
     "static/media/music.png": "/portfolio/static/media/music.2e2b4487f13eb284bb7e.png",
     "index.html": "/portfolio/index.html",
-    "main.35a0f87d.css.map": "/portfolio/static/css/main.35a0f87d.css.map",
-    "main.6a566c3b.js.map": "/portfolio/static/js/main.6a566c3b.js.map",
+    "main.99e84e01.css.map": "/portfolio/static/css/main.99e84e01.css.map",
+    "main.1e026769.js.map": "/portfolio/static/js/main.1e026769.js.map",
     "787.a2cb61a6.chunk.js.map": "/portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35a0f87d.css",
-    "static/js/main.6a566c3b.js"
+    "static/css/main.99e84e01.css",
+    "static/js/main.1e026769.js"
   ]
 }
