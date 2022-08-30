@@ -23,7 +23,7 @@ function TerrainGenerationVisualized() {
     };
 
     const changeSeed = () => {
-        setMapSeed(Math.random()*99)
+        setMapSeed(Math.random()*999)
     }
 
   

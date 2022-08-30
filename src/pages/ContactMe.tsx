@@ -37,7 +37,7 @@ function ContactMe () {
                     Contact me
                 </div>
                 <div className="ContactMeDescription">
-                    Let's get in touch, and make something special together!
+                    Let's get in touch, work together or ask me anything!
                 </div>
                 <form onSubmit={sendEmail}>
                 <div className="ContactFormContainer">

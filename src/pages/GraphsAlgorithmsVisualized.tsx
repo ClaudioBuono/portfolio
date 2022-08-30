@@ -4,7 +4,6 @@ import GraphsAlgorithms from "../components/algorithmsComponents/GraphsAlgorithm
 
 function GraphsAlgorithmsVisualized() {
 
-   
 
     return (
         <div className="projectContainer">

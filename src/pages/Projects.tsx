@@ -61,7 +61,7 @@ function Projects() {
                                     <CardMedia
                                         component="img"
                                         height="160"
-                                        image="https://blog.dataiku.com/hs-fs/hubfs/animation.gif?width=396&name=animation.gif"
+                                        image={require('../assets/projectsGIFs/graphAlg.gif')}
                                         alt="graphAlg"
                                     />
                                     <CardContent>
@@ -90,7 +90,7 @@ function Projects() {
                                     <CardMedia
                                         component="img"
                                         height="160"
-                                        image="https://i.gifer.com/FooP.gif"
+                                        image={require('../assets/projectsGIFs/terrainGenerator.gif')}
                                         alt="graphAlg"
                                     />
                                     <CardContent>

@@ -7,17 +7,13 @@ import '../styles/hover.css';
 import "react-awesome-button/dist/styles.css";
 import '../styles/homepage.css'
 
-
-
-
-
-
 function Homepage() 
 {
   
-  const name = ["C","l","a","u","d","i","o"]
-  const surname = ["B","u","o","n","o"]
+  const nameSurname = "Claudio Buono"
   const { scrollYProgress } = useScroll();
+
+  // Mouse scroll animation opacity on scroll down
   const opacity= useTransform (scrollYProgress, [0,0.5],[0.6,0]);
     
 
@@ -27,33 +23,26 @@ function Homepage()
       <Fade left>
         <div id="homepageContainer">
           <div id="nextPageContainer">
-          <motion.div
-            whileHover={{ x: 15 }}
-            
-          >
-            <div>
-              <Link to='/Projects' style={{color: '#fff'}}>
-                <p>Projects
-                  <img src={require("../assets/nextPage.png")} alt="nextPage" width={35} color={"white"}/>
-                </p>
-              </Link>
-            </div>
+            <motion.div
+              whileHover={{ x: 15 }} 
+            >
+                <Link to='/Projects' style={{color: '#fff'}}>
+                  <p>Projects
+                    <img src={require("../assets/nextPage.png")} alt="nextPage" width={35} color={"white"}/>
+                  </p>
+                </Link>  
             </motion.div>
           </div>
-              <div id="nameContainer">
-              
-              {
-                    name.map((letter,i) =>{                  
-                      return(<span id="giantName" key={i} className="hvr-wobble-vertical">{letter}</span>)
-                    })  
-                       
-              }
-              &nbsp;&nbsp;
-              {     surname.map((letter,e) =>{                  
-                      return(<span id="giantName" key={e} className="hvr-wobble-vertical">{letter}</span>)
-                    }) 
-              }
-
+          <div id="nameContainer">
+            {
+                  // split() transforms a string into an array so I can use map()
+                  nameSurname.split("").map((character) =>{       
+                    if(character===" ")
+                      return(<span></span>)
+                    else           
+                      return(<span id="giantName" className="hvr-wobble-vertical">{character}</span>)
+                  })          
+            }
             <div id="nameDesc">
               Creative <span className="hvr-skew-forward">full stack developer</span> student
             </div>
@@ -71,15 +60,15 @@ function Homepage()
             <p id="funnyQuote">“Software and cathedrals are much the same — first we build them, then we pray.”</p>
           </div>
          
-        <motion.div
-        style={{opacity}}
+          <motion.div
+          style={{opacity}}
           >
-          <div className="scroll-downs">
-            <div className="mousey">
-              <div className="scroller"></div>
+            <div className="scroll-downs">
+              <div className="mousey">
+                <div className="scroller"></div>
+              </div>
             </div>
-          </div>
-         </motion.div>
+          </motion.div>
         </div>
         </Fade>
 
