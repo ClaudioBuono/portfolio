@@ -1,0 +1,69 @@
+.mainDialogContainer
+{
+    background: rgba(105, 105, 105, 0.2);
+}
+.secondaryDialogContainer
+{
+    margin: 8% ;
+}
+.favouriteVideogamesContainer span
+{
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 0 4px 8px black,
+               0 3px 0 #1b1a1a,
+               0 1px 0 rgb(10, 10, 10),
+               0 1px 0 #1d1b1b,
+               0 1px 0 rgb(29, 28, 28),
+               0 1px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.coversContainer
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.coversContainer img
+{
+    margin: 10px;
+}
+
+.platformsContainer
+{
+    margin-top: 5%;
+}
+
+.titleLabel
+{
+    margin-bottom: 10px;
+    
+}
+
+.titleLabel span
+{
+    font-size: 1.2em;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 0 4px 8px black,
+               0 3px 0 #1b1a1a,
+               0 1px 0 rgb(10, 10, 10),
+               0 1px 0 #1d1b1b,
+               0 1px 0 rgb(29, 28, 28),
+               0 1px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}

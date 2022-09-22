@@ -1,16 +1,41 @@
-import { Avatar, Button } from "@mui/material";
+import { Avatar, Button, Dialog} from "@mui/material";
 import Fade from 'react-reveal/Fade'
 import { saveAs } from 'file-saver';
 import { Link } from "react-router-dom";
 import '../styles/aboutMe.css'
 
+
 // Interests icons
 import '../assets/interestsIcons/game.png'
 import '../assets/interestsIcons/cinema.png'
 import '../assets/interestsIcons/coding.png'
+import React, { useState } from "react";
+import VideogamesSection from "./VideogamesSection";
 
 
 function AboutMe() {
+
+    const [popOverCategory,setPopOverCategory] = useState("")
+
+    const handleClick = (event: React.MouseEvent<HTMLDivElement>,id) => {
+
+    
+        if(id===0)
+            setPopOverCategory("game")
+        else if(id===1)
+            setPopOverCategory("cinema")
+        else if(id===2)
+            setPopOverCategory("music")
+        
+  };
+
+  
+
+  const handleClose = () => {
+    setPopOverCategory("")
+
+  };
+
 
     const interests = ["game","cinema","music","coding"]
 
@@ -24,9 +49,9 @@ function AboutMe() {
        
             
         <div className="aboutMeMainContainer">
-            <p className="aboutMeLabel">ABOUT ME
+            <div className="aboutMeLabel">ABOUT ME
                 <hr className='underlineCustomOrange'></hr>
-            </p>
+            </div>
             <div className="aboutMeSecondaryContainer">
                 <div className="infoContainer">
                     <Fade up>
@@ -45,14 +70,13 @@ function AboutMe() {
                             My interests
                         </div>
                         <div className="interestsButtonsContainer">
-                        <Fade up>
+                        
                             {  
                             
                                 interests.map((interest,i)=>{                     
                                     return(
-                                        <div className="interestBlock">
+                                        <div className="interestBlock hvr-grow" onClick={event=>handleClick(event,i)} key={i}>
                                             <div className="inner">
-                                                                                               
                                             <img alt="i" src={require("../assets/interestsIcons/"+`${interest}`+".png")}></img>
                                             <div className="interestTitle">{interest}</div>
                                             </div>
@@ -60,7 +84,18 @@ function AboutMe() {
                                     )
                                 })
                             }
-                        </Fade>
+                       
+                        
+                        <Dialog
+                            open={(popOverCategory === "game" ? true : false)}
+                            keepMounted
+                            onClose={handleClose}
+                            aria-describedby="alert-dialog-slide-description"
+                            
+                        >
+                                <VideogamesSection/>                    
+                        </Dialog>
+
                         </div>    
                     </div>                           
                 </div>

@@ -36,11 +36,11 @@ function Homepage()
           <div id="nameContainer">
             {
                   // split() transforms a string into an array so I can use map()
-                  nameSurname.split("").map((character) =>{       
+                  nameSurname.split("").map((character,i) =>{       
                     if(character===" ")
-                      return(<span></span>)
+                      return(<span key={i}></span>)
                     else           
-                      return(<span id="giantName" className="hvr-wobble-vertical">{character}</span>)
+                      return(<span id="giantName" key={i} className="hvr-wobble-vertical">{character}</span>)
                   })          
             }
             <div id="nameDesc">
@@ -76,9 +76,9 @@ function Homepage()
                   
         <div className='languagesMainContainer'>
           <div className='languagesSecondaryContainer'>
-            <p className="languagesLabelTitle">MY SKILLS
+            <div className="languagesLabelTitle">MY SKILLS
               <hr className='underlineCustomOrange'></hr>
-            </p>  
+            </div>  
             
               <p className="languagesLabel">Frontend</p>
 
