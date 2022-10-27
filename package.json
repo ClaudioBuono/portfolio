@@ -1,6 +1,7 @@
 {
   "homepage": "https://claudiobuono.github.io/portfolio",
   "name": "react-portfolio",
+  "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +23,9 @@
     "aos": "^2.3.4",
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.2",
+    "express": "^4.18.1",
     "file-saver": "^2.0.5",
     "framer-motion": "^7.1.0",
     "hover.css": "^2.3.2",
@@ -78,6 +81,7 @@
     "@types/axios": "^0.14.0",
     "@types/react-burger-menu": "^2.8.3",
     "gh-pages": "^4.0.0",
+    "http-proxy-middleware": "^2.0.6",
     "svg-inline-loader": "^0.8.2"
   },
   "browser": {
@@ -85,5 +89,17 @@
   },
   "rules": {
     "@typescript-eslint/ban-ts-ignore": "off"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioBuono/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaudioBuono/portfolio/issues"
   }
 }

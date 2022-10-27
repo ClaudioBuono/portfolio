@@ -141,7 +141,7 @@ function Projects() {
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">WIP</Button>
+                                        <Button size="small">Coming soon</Button>
                                     </CardActions>
                                     </Card>
                                 </div>
@@ -157,7 +157,7 @@ function Projects() {
                                         component="img"
                                         height="160"
                                         width="10"
-                                        image="https://c.tenor.com/ZztVmkKG2TIAAAAM/pepe-sad-pepe-crying.gif"
+                                        image="https://www.heyday.ai/wp-content/uploads/2021/05/ecommerce-and-video-game-design.gif"
                                         alt="peppe"
                                     />
                                     <CardContent>
@@ -169,7 +169,7 @@ function Projects() {
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">WIP</Button>
+                                        <Button size="small">Coming soon</Button>
                                     </CardActions>
                                     </Card>
                                 </div>
@@ -207,7 +207,7 @@ function Projects() {
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">WIP</Button>
+                                        <Button size="small">Coming soon</Button>
                                     </CardActions>
                                     </Card>
                                 </div>

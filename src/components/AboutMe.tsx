@@ -56,7 +56,10 @@ function AboutMe() {
                 <div className="infoContainer">
                     <Fade up>
                     <div className="descriptionContainer">
-                        <p>Hi, I'm Claudio Buono, 21 years old computer science student, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit ducimus necessitatibus laborum sint, qui non veritatis magni perspiciatis praesentium, maiores eaque ipsa mollitia, ipsum vero nulla earum eius exercitationem itaque!</p>
+                        <p>Hi, I'm Claudio Buono, 21 years old computer science student, actually studying at University in Salerno, I like almost every aspect of programming, 
+                        from Website Developing to Artificial Intelligence.<br></br>I started studying computer science in high school with the dream to become a videogame developer, and
+                        even if I'm still chasing that dream, I got interested in other branches of computer science.
+                        </p>
                     </div>
                     </Fade> 
                     <Fade up> 
