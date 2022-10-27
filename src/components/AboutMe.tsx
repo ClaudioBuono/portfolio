@@ -1,9 +1,8 @@
 import { Avatar, Button, Dialog} from "@mui/material";
 import Fade from 'react-reveal/Fade'
-import { saveAs } from 'file-saver';
 import { Link } from "react-router-dom";
 import '../styles/aboutMe.css'
-
+import cvPDF from "../assets/Buono-Claudio-CV.pdf";
 
 // Interests icons
 import '../assets/interestsIcons/game.png'
@@ -39,12 +38,6 @@ function AboutMe() {
 
     const interests = ["game","cinema","music","coding"]
 
-    const saveManual = () => {
-        saveAs.saveAs(
-          process.env.REACT_APP_CLIENT_URL + "../../public/cv.txt",
-          "cv.txt"
-        );
-    };
     return (
        
             
@@ -63,8 +56,10 @@ function AboutMe() {
                     </div>
                     </Fade> 
                     <Fade up> 
-                    <div className="infoContainerButtons">                 
-                        <Button className="whiteOutlinedButton" onClick={()=>{saveManual()}} variant="outlined">Download CV</Button>     
+                    <div className="infoContainerButtons">     
+                    <a href={cvPDF} target="_blank" rel="noreferrer">         
+                        <Button className="whiteOutlinedButton" variant="outlined">View CV</Button> 
+                        </a>      
                         <Link to="/ContactMe"><Button className="whiteOutlinedButton" variant="outlined"> CONTACT ME</Button></Link>
                     </div>
                     </Fade>
@@ -106,7 +101,7 @@ function AboutMe() {
                 <Fade right>
                     <Avatar
                         alt="Me"
-                        src={require('../assets/me.jpeg')}
+                        src={require('../assets/me.png')}
                         className="avatar"
                     />
                 </Fade>

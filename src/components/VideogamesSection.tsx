@@ -1,6 +1,5 @@
 import '../styles/interestsSections.css'
 import AnimatedImage from '../components/AnimatedImage';
-import SteamProfile from './SteamProfile';
 function VideogamesSection() 
 {
 
