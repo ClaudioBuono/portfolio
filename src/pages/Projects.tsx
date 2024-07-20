@@ -20,12 +20,13 @@ function Projects() {
                     {/* P5.JS PROJECTS */}
                     <div className="projectsBox">
                         <div className="boxTitle">
+                            <img alt="unity" src={require('../assets/languagesIcons/p5.png')}/>  
                             <span>P5.JS PROJECTS</span>
                         </div>
                         <div className="cardBoxContainer">
                             <motion.div
                                 whileHover={{scale:1.2}}
-                                style={{display:"inline-block"}}
+                                style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
@@ -54,7 +55,7 @@ function Projects() {
 
                             <motion.div
                                 whileHover={{scale:1.2}}
-                                style={{display:"inline-block"}}
+                                style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
@@ -83,7 +84,7 @@ function Projects() {
 
                             <motion.div
                                 whileHover={{scale:1.2}}
-                                style={{display:"inline-block"}}
+                                style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
@@ -116,13 +117,39 @@ function Projects() {
 
                     <div className="projectsBox">
                         <div className="boxTitle">
-                          
+                            <img alt="unity" src={require('../assets/genericIcons/graduation-hat.png')}/>  
                             <span>UNIVERSITY PROJECTS</span>
                         </div>
                         <div className="cardBoxContainer">
                             <motion.div
                                 whileHover={{scale:1.2}}
-                                style={{display:"inline-block"}}
+                                style={{display:"inline-block",marginRight:30}}
+                            >
+                                <div className="cardBox">
+                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345}}>
+                                    <CardMedia
+                                        component="img"
+                                        height="160"
+                                        image={require('../assets/projectsGIFs/mapGif.gif')}
+                                        alt="unisaEAT"
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="div">
+                                        EvoPath
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                        Map generation tool for tower defense videogames using AI Genetic Algorithm developed for AI university course.
+                                        </Typography>
+                                    </CardContent>
+                                    <CardActions>
+                                        <Button size="small">Coming soon</Button>
+                                    </CardActions>
+                                    </Card>
+                                </div>
+                            </motion.div>
+                            <motion.div
+                                whileHover={{scale:1.2}}
+                                style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
@@ -149,7 +176,7 @@ function Projects() {
 
                             <motion.div
                                 whileHover={{scale:1.2}}
-                                style={{display:"inline-block"}}
+                                style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
                                     <Card sx={{ maxWidth: 345 }}>
@@ -185,6 +212,35 @@ function Projects() {
                             <span>UNITY PROJECTS</span>
                         </div>
                         <div className="cardBoxContainer">
+
+                            <motion.div
+                                whileHover={{scale:1.2}}
+                                style={{display:"inline-block",marginRight:30}}
+                            >
+                                <div className="cardBox">
+                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
+                                    <CardMedia
+                                        component="img"
+                                        height="160"
+                                        image={require('../assets/projectsGIFs/snake.gif')}
+                                        alt="snake"
+                                        style={{objectPosition: "50% 80%"}}
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant="h5" component="div">
+                                        WordWarpVR
+                                        </Typography>
+                                        <Typography variant="body2" color="text.secondary">
+                                        Classic snake game recreated in 3D with multiplayer feature.
+                                        </Typography>
+                                    </CardContent>
+                                    <CardActions>
+                                        <Button size="small">Coming soon</Button>
+                                    </CardActions>
+                                    </Card>
+                                </div>
+                            </motion.div>
+
                             <motion.div
                                 whileHover={{scale:1.2}}
                                 style={{display:"inline-block"}}

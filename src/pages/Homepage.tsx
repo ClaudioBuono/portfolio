@@ -56,7 +56,7 @@ function Homepage()
               </a>
               .
             </p>
-            <p>Here you can find my projects, languages that I've learned, and more.</p>
+            <p>Here, you can explore my projects, about my journey and skills.</p>
             <p id="funnyQuote">“Software and cathedrals are much the same — first we build them, then we pray.”</p>
           </div>
          

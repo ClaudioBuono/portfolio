@@ -1,7 +1,10 @@
 {
   "homepage": "https://claudiobuono.github.io/portfolio",
   "name": "react-portfolio",
-  "proxy": "http://localhost:5000",
+  "options": {
+    "allowedHosts": ["localhost", ".localhost"],
+    "proxy": "https://localhost:3386/"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -49,9 +49,10 @@ function AboutMe() {
                 <div className="infoContainer">
                     <Fade up>
                     <div className="descriptionContainer">
-                        <p>Hi, I'm Claudio Buono, 21 years old computer science student, actually studying at University in Salerno, I like almost every aspect of programming, 
-                        from Website Developing to Artificial Intelligence.<br></br>I started studying computer science in high school with the dream to become a videogame developer, and
-                        even if I'm still chasing that dream, I got interested in other branches of computer science.
+                        <p>
+                        Hi, I'm Claudio Buono, a 23-year-old computer science student currently studying at the University of Salerno. I have a strong passion for almost every aspect of programming, from web development to video game development.
+                        <br></br>
+                        My journey in computer science began in high school with a dream to become a video game developer. While I am still pursuing that dream, I have also developed a keen interest in various other branches of computer science.
                         </p>
                     </div>
                     </Fade> 
