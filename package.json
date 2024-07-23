@@ -2,7 +2,10 @@
   "homepage": "https://claudiobuono.github.io/portfolio",
   "name": "react-portfolio",
   "options": {
-    "allowedHosts": ["localhost", ".localhost"],
+    "allowedHosts": [
+      "localhost",
+      ".localhost"
+    ],
     "proxy": "https://localhost:3386/"
   },
   "version": "0.1.0",
@@ -48,6 +51,7 @@
     "react-router-hash-link": "^2.4.3",
     "react-script-tag": "^1.1.2",
     "react-scripts": "5.0.1",
+    "react-text-gradients": "^1.0.2",
     "react-toast-notifications": "^2.5.1",
     "react-transition-group": "^4.4.2",
     "styled-components": "^5.3.5",

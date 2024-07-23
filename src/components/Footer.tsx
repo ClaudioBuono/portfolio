@@ -1,8 +1,6 @@
 
-import {BsGithub} from 'react-icons/bs'
+import {BsGithub, BsLinkedin} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
-import {BsDiscord} from 'react-icons/bs'
-import {BsTelegram} from 'react-icons/bs'
 import {MDBFooter,MDBContainer,} from 'mdb-react-ui-kit';
 
 import '../styles/footer.css';
@@ -16,18 +14,20 @@ function Footer() {
             <a href='https://github.com/ClaudioBuono' target='_blank' rel="noreferrer">
               <BsGithub size={40} style={{margin:'15px',color:'white'}}/>
             </a>
+            <a href='https://www.linkedin.com/in/claudio-buono-39564931a/' target='_blank' rel="noreferrer">
+            <BsLinkedin size={40} style={{margin:'15px',color:'white'}}/>
+            </a>
             <a href='https://www.instagram.com/claudio.buono01/' target='_blank' rel="noreferrer">
               <BsInstagram size={40} style={{margin:'15px',color:'white'}}/>
             </a>
-            <BsDiscord size={40} style={{margin:'15px',color:'white'}}/>
-            <a href='https://t.me/@xDarkclaus/' target='_blank' rel="noreferrer">
-              <BsTelegram size={40} style={{margin:'15px',color:'white'}}/>
-            </a>
+            
+            
+            
         </section>
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', fontSize:'15px' }}>
-        © 2022 All copyrights reserved to Claudio Buono
+        © 2024 All copyrights reserved to Claudio Buono
       </div>
     </MDBFooter>
   );
