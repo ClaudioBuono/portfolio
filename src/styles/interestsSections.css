@@ -1,7 +1,9 @@
 .mainDialogContainer
 {
     background: rgba(105, 105, 105, 0.2);
+    
 }
+
 .secondaryDialogContainer
 {
     margin: 8% ;
@@ -34,6 +36,9 @@
 .coversContainer img
 {
     margin: 10px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
 }
 
 .platformsContainer
@@ -66,4 +71,12 @@
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
+}
+.InterestContainer
+{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
 }

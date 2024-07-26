@@ -1,5 +1,5 @@
 import '../styles/interestsSections.css'
-import AnimatedImage from '../components/AnimatedImage';
+import AnimatedImage from './AnimatedImage';
 function VideogamesSection() 
 {
 
@@ -8,13 +8,33 @@ function VideogamesSection()
             <div className="secondaryDialogContainer">
                 <div className="favouriteVideogamesContainer">
                     <span>
-                        My top 3 videogames
+                        My favorite videogames
                     </span>
                     <div className="coversContainer">
-                        <AnimatedImage url={require("../assets/interestsImages/tlou.jpg")} width="30"/>
-                        <AnimatedImage url={require("../assets/interestsImages/godOfWar.jpg")} width="30"/>
-                        <AnimatedImage url={require("../assets/interestsImages/ac2.jpg")} width="30"/>
-                    </div>        
+                        <div className='InterestContainer'>
+                            <AnimatedImage url={require("../assets/interestsImages/tlou.jpg")} />
+                            <b>The Last of Us</b>
+                        </div>
+                        <div className='InterestContainer'>
+                            <AnimatedImage url={require("../assets/interestsImages/godOfWar.jpg")} />
+                            <b>God of War</b>
+                        </div>
+                        <div className='InterestContainer'>
+                            <AnimatedImage url={require("../assets/interestsImages/ac2.jpg")} />
+                            <b>Assassin's Creed 2</b>
+                        </div>
+                    </div>
+                    <p style={{marginTop:'30px'}}>
+                    <b>Check my backlog here</b><br/>
+                    <div style={{marginTop:'10px'}}>
+                        <a href='https://www.backloggd.com/u/Darkclaus/' target='_blank' rel="noreferrer" >
+                        <img src={require("../assets/genericIcons/backloggd.jpg")} style={{width:'5%',marginRight:'10px'}}/>
+                        Darkclaus
+                        
+                        </a> 
+                    </div>
+                    </p>
+                     
                 </div>    
             </div>
         </div>

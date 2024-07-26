@@ -4,10 +4,7 @@ import emailjs from '@emailjs/browser';
 import { useToasts } from 'react-toast-notifications';
 
 // Socials icons
-import {BsGithub} from 'react-icons/bs'
-import {BsInstagram} from 'react-icons/bs'
-import {BsDiscord} from 'react-icons/bs'
-import {BsTelegram} from 'react-icons/bs'
+import {BsInstagram,BsLinkedin,BsGithub} from 'react-icons/bs'
 
 import '../styles/contact.css'
 
@@ -80,10 +77,10 @@ function ContactMe () {
                         <a href='https://www.instagram.com/claudio.buono01/' className="hvr-grow" target='_blank' rel="noreferrer">
                             <BsInstagram size={40} style={{margin:'15px',color:'white'}}/>
                         </a>
-                            <BsDiscord size={40} className="hvr-grow" style={{margin:'15px',color:'white'}}/>
-                        <a href='https://t.me/@xDarkclaus/' className="hvr-grow" target='_blank' rel="noreferrer">
-                            <BsTelegram size={40} style={{margin:'15px',color:'white'}}/>
-                         </a>
+                        <a href='https://www.linkedin.com/in/claudio-buono-39564931a/' target='_blank' rel="noreferrer">
+                        <BsLinkedin size={40} style={{margin:'15px',color:'white'}}/>
+                        </a>
+                        
                     </section>
                 </div>
             </div>   

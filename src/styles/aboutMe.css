@@ -85,6 +85,8 @@
     border-radius: 5px;
     display: inline-block;
     margin-right: 15px;
+    width: 8%;
+    cursor:pointer;
 }
 
 .interestBlock img
@@ -92,7 +94,12 @@
     max-width: 60%;
     max-height: 100%;
     padding: 5px;
-    width: 50px;
+    width: 60%;
+}
+.interestTitle
+{
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .inner
@@ -116,9 +123,8 @@
 
 .MuiDialog-paper
 {
-    width: 80%;
     background-color: rgba(34, 42, 53, 0.1) !important;
-    width: 35% !important;
+    width: 40% !important;
     max-width: none !important;
 }
 

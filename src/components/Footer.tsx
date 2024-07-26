@@ -1,6 +1,5 @@
 
-import {BsGithub, BsLinkedin} from 'react-icons/bs'
-import {BsInstagram} from 'react-icons/bs'
+import {BsGithub, BsLinkedin,BsInstagram} from 'react-icons/bs'
 import {MDBFooter,MDBContainer,} from 'mdb-react-ui-kit';
 
 import '../styles/footer.css';
@@ -14,13 +13,13 @@ function Footer() {
             <a href='https://github.com/ClaudioBuono' target='_blank' rel="noreferrer">
               <BsGithub size={40} style={{margin:'15px',color:'white'}}/>
             </a>
-            <a href='https://www.linkedin.com/in/claudio-buono-39564931a/' target='_blank' rel="noreferrer">
-            <BsLinkedin size={40} style={{margin:'15px',color:'white'}}/>
-            </a>
+            
             <a href='https://www.instagram.com/claudio.buono01/' target='_blank' rel="noreferrer">
               <BsInstagram size={40} style={{margin:'15px',color:'white'}}/>
             </a>
-            
+            <a href='https://www.linkedin.com/in/claudio-buono-39564931a/' target='_blank' rel="noreferrer">
+            <BsLinkedin size={40} style={{margin:'15px',color:'white'}}/>
+            </a>
             
             
         </section>

@@ -5,7 +5,7 @@ import '../styles/aboutMe.css'
 import cvPDF from "../assets/Buono-Claudio-CV.pdf";
 
 // Interests icons
-import '../assets/interestsIcons/game.png'
+import '../assets/interestsIcons/videogames.png'
 import '../assets/interestsIcons/cinema.png'
 import '../assets/interestsIcons/coding.png'
 import React, { useState } from "react";
@@ -20,7 +20,7 @@ function AboutMe() {
 
     
         if(id===0)
-            setPopOverCategory("game")
+            setPopOverCategory("videogames")
         else if(id===1)
             setPopOverCategory("cinema")
         else if(id===2)
@@ -36,7 +36,7 @@ function AboutMe() {
   };
 
 
-    const interests = ["game","cinema","music","coding"]
+    const interests = ["videogames","cinema","music","coding"]
 
     return (
        
@@ -77,7 +77,7 @@ function AboutMe() {
                                         <div className="interestBlock hvr-grow" onClick={event=>handleClick(event,i)} key={i}>
                                             <div className="inner">
                                             <img alt="i" src={require("../assets/interestsIcons/"+`${interest}`+".png")}></img>
-                                            <div className="interestTitle">{interest}</div>
+                                            <div className="interestTitle">{interest[0].toUpperCase() + interest.slice(1)}</div>
                                             </div>
                                         </div>
                                     )
@@ -86,13 +86,13 @@ function AboutMe() {
                        
                         
                         <Dialog
-                            open={(popOverCategory === "game" ? true : false)}
+                            open={(popOverCategory === "videogames" ? true : false)}
                             keepMounted
                             onClose={handleClose}
                             aria-describedby="alert-dialog-slide-description"
-                            
+                          
                         >
-                                <VideogamesSection/>                    
+                            <VideogamesSection/>                    
                         </Dialog>
 
                         </div>    
