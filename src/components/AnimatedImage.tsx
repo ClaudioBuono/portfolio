@@ -22,7 +22,7 @@ function AnimatedImage(props)
     {
         const rect = event.currentTarget.getBoundingClientRect();
 
-        x.set(event.clientX - rect.left);
+        x.set(event.clientX - rect.left );
         y.set(event.clientY - rect.top);
     }
 

@@ -12,7 +12,7 @@
     position: absolute;
     right: 0;
     margin-right: 5%;
-    margin-top: 15%;
+    margin-top: 17%;
 }
 
 #nextPageContainer p
@@ -47,6 +47,7 @@
 {
     font-size: 1.5em;
     color: white;
+    font-weight: 600;
     font-family: 'Titillium Web', sans-serif;
     text-align: left;
     width: fit-content;
@@ -61,7 +62,7 @@
 
 #descriptionContainer
 {
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 10%;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.867);

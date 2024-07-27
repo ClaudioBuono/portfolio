@@ -24,11 +24,11 @@ function VideogamesSection()
                             <b>Assassin's Creed 2</b>
                         </div>
                     </div>
-                    <p style={{marginTop:'30px'}}>
+                    <p style={{color:'white',marginTop:'30px'}}>
                     <b>Check my backlog here</b><br/>
-                    <div style={{marginTop:'10px'}}>
+                    <div style={{marginTop:'20px'}}>
                         <a href='https://www.backloggd.com/u/Darkclaus/' target='_blank' rel="noreferrer" >
-                        <img src={require("../assets/genericIcons/backloggd.jpg")} style={{width:'5%',marginRight:'10px'}}/>
+                        <img src={require("../assets/genericIcons/backloggd.jpg")} style={{width:'5%',marginRight:'15px'}}/>
                         Darkclaus
                         
                         </a> 

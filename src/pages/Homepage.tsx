@@ -45,7 +45,7 @@ function Homepage()
             <div id="nameDesc">
              <span className="hvr-skew-forward">Full stack software and web developer</span>
             </div>
-            <hr/>
+            <hr style={{height:'1px'}}/>
           </div>
           <div id="descriptionContainer">
             <p><h4>Welcome to my portfolio!</h4></p>
@@ -54,8 +54,8 @@ function Homepage()
                 <span> UNISA</span>
               </a>
               .
-            </p>
-            <p>Here, you can explore my projects, my journey and skills.</p>
+            <br/>
+              Here, you can explore my projects, my journey and skills.</p>
             <p id="funnyQuote">“Software and cathedrals are much the same — first we build them, then we pray.”</p>
           </div>
          

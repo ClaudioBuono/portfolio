@@ -31,7 +31,7 @@ function Projects() {
                                 style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
-                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
+                                    <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
                                     <CardMedia
                                         component="img"
                                         height="160"
@@ -43,7 +43,7 @@ function Projects() {
                                         <Typography gutterBottom variant="h5" component="div">
                                         WordWarpVR
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography className='projectCardText'>
                                         Virtual Reality videogame for english improvement, developed for meta quest 2 using XR development toolkit.
                                         </Typography>
                                     </CardContent>
@@ -59,7 +59,7 @@ function Projects() {
                                 style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
-                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
+                                    <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
                                     <CardMedia
                                         component="img"
                                         height="160"
@@ -71,7 +71,7 @@ function Projects() {
                                         <Typography gutterBottom variant="h5" component="div">
                                         Mini Steam Profile
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography className='projectCardText'>
                                         React component for showing a minimal version of a steam profile, including games played, hours played and other informations.
                                         </Typography>
                                     </CardContent>
@@ -84,35 +84,6 @@ function Projects() {
                                 </div>
                             </motion.div>
 
-                            {/*
-                            <motion.div
-                                whileHover={{scale:1.2}}
-                                style={{display:"inline-block"}}
-                            >
-                                <div className="cardBox">
-                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        image={require('../assets/projectsGIFs/snake.gif')}
-                                        alt="snake"
-                                        style={{objectPosition: "50% 80%"}}
-                                    />
-                                    <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div">
-                                        MultiSnake
-                                        </Typography>
-                                        <Typography variant="body2" color="text.secondary">
-                                        Classic snake game recreated in 3D with multiplayer feature.
-                                        </Typography>
-                                    </CardContent>
-                                    <CardActions>
-                                        <Button size="small">Coming soon</Button>
-                                    </CardActions>
-                                    </Card>
-                                </div>
-                            </motion.div>
-                            */}
 
                         
                         </div>
@@ -132,7 +103,7 @@ function Projects() {
                                 style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
-                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345}}>
+                                    <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345}}>
                                     <CardMedia
                                         component="img"
                                         height="160"
@@ -143,7 +114,7 @@ function Projects() {
                                         <Typography gutterBottom variant="h5" component="div">
                                         EvoPath
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography className='projectCardText'>
                                         Map generation tool for tower defense videogames using AI Genetic Algorithm developed for AI university course.
                                         </Typography>
                                     </CardContent>
@@ -162,7 +133,7 @@ function Projects() {
                                 style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
-                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
+                                    <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
                                     <CardMedia
                                         component="img"
                                         height="160"
@@ -173,7 +144,7 @@ function Projects() {
                                         <Typography gutterBottom variant="h5" component="div">
                                         UnisaEAT
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography className='projectCardText'>
                                         Software Enginering project, developed with a squad of 7 students and 2 project managers, provided of full documentation and a repository.
                                         </Typography>
                                     </CardContent>
@@ -191,7 +162,7 @@ function Projects() {
                                 style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
-                                    <Card sx={{ maxWidth: 345 }}>
+                                    <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
                                     <CardMedia
                                         component="img"
                                         height="160"
@@ -203,7 +174,7 @@ function Projects() {
                                         <Typography gutterBottom variant="h5" component="div">
                                         GameNyx
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography className='projectCardText'>
                                         Simulation of a videogames e-commerce website developed for an university web development course.
                                         </Typography>
                                     </CardContent>
@@ -230,7 +201,7 @@ function Projects() {
                                 style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
-                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
+                                    <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
                                     <CardMedia
                                         component="img"
                                         height="160"
@@ -241,7 +212,7 @@ function Projects() {
                                         <Typography gutterBottom variant="h5" component="div">
                                         Sorting algorithms visualized
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography className='projectCardText'>
                                         Visualized sorting algorithms using p5.js, including selection sort, bubble sort and merge sort algorithms.
                                         </Typography>
                                     </CardContent>
@@ -262,7 +233,7 @@ function Projects() {
                                 style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
-                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
+                                    <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
                                     <CardMedia
                                         component="img"
                                         height="160"
@@ -273,8 +244,8 @@ function Projects() {
                                         <Typography gutterBottom variant="h5" component="div">
                                         Graphs algorithms visualized
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
-                                        Visualized graphs algorithms using p5.js, including shortest path algorithms for connecting multiple dots using the shortest path.
+                                        <Typography className='projectCardText'>
+                                        Visualized graphs algorithms using p5.js, including shortest path algorithms for connecting multiple dots.
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
@@ -294,7 +265,7 @@ function Projects() {
                                 style={{display:"inline-block",marginRight:30}}
                             >
                                 <div className="cardBox">
-                                    <Card className="hover-shadow hover-zoom" sx={{ maxWidth: 345 }}>
+                                    <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345}}>
                                     <CardMedia
                                         component="img"
                                         height="160"
@@ -305,7 +276,7 @@ function Projects() {
                                         <Typography gutterBottom variant="h5" component="div">
                                         Terrain generation
                                         </Typography>
-                                        <Typography variant="body2" color="text.secondary">
+                                        <Typography className='projectCardText'>
                                         Random generated terrains using Perlin noise to generate biomes and simulate maps with lakes and plains. 
                                         </Typography>
                                     </CardContent>
