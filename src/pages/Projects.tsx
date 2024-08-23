@@ -32,13 +32,15 @@ function Projects() {
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        image={require('../assets/projectsGIFs/wordwarp.png')}
-                                        alt="snake"
-                                        style={{objectPosition: "50% 80%"}}
-                                    />
+                                    <Link to="" rel="noopener noreferrer">
+                                        <CardMedia
+                                            component="img"
+                                            height="160"
+                                            image={require('../assets/projectsGIFs/wordwarp.png')}
+                                            alt="snake"
+                                            style={{objectPosition: "50% 80%"}}
+                                        />
+                                    </Link>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
                                         WordWarpVR
@@ -60,13 +62,15 @@ function Projects() {
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        image={require('../assets/projectsGIFs/mini_steam_profile.png')}
-                                        alt="snake"
-                                        style={{objectPosition: "50% 80%"}}
-                                    />
+                                    <Link to="https://github.com/ClaudioBuono/mini-steam-profile" target='_blank' rel="noopener noreferrer">
+                                        <CardMedia
+                                            component="img"
+                                            height="160"
+                                            image={require('../assets/projectsGIFs/mini_steam_profile.png')}
+                                            alt="snake"
+                                            style={{objectPosition: "50% 80%"}}
+                                        />
+                                    </Link>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
                                         Mini Steam Profile
@@ -104,12 +108,14 @@ function Projects() {
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345}}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        image={require('../assets/projectsGIFs/mapGif.gif')}
-                                        alt="unisaEAT"
-                                    />
+                                    <Link to="https://github.com/Gianpyy/evopath" target='_blank' rel="noopener noreferrer">
+                                        <CardMedia
+                                            component="img"
+                                            height="160"
+                                            image={require('../assets/projectsGIFs/mapGif.gif')}
+                                            alt="unisaEAT"
+                                        />
+                                    </Link>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
                                         EvoPath
@@ -134,12 +140,14 @@ function Projects() {
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        image={require('../assets/projectsGIFs/unisaEAT.gif')}
-                                        alt="unisaEAT"
-                                    />
+                                    <Link to="https://github.com/UnisaEAT" target='_blank' rel="noopener noreferrer">
+                                        <CardMedia
+                                            component="img"
+                                            height="160"
+                                            image={require('../assets/projectsGIFs/unisaEAT.gif')}
+                                            alt="unisaEAT"
+                                        />
+                                    </Link>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
                                         UnisaEAT
@@ -163,13 +171,15 @@ function Projects() {
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        width="10"
-                                        image={require('../assets/projectsGIFs/ecommerce_gif.gif')}
-                                        alt="peppe"
-                                    />
+                                    <Link to="https://github.com/CappelloNicola/TSW2021_francese-GameNyx" target='_blank' rel="noopener noreferrer">
+                                            <CardMedia
+                                                component="img"
+                                                height="160"
+                                                width="10"
+                                                image={require('../assets/projectsGIFs/ecommerce_gif.gif')}
+                                                alt="peppe"
+                                            />
+                                    </Link>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
                                         GameNyx
@@ -202,12 +212,14 @@ function Projects() {
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        image={require('../assets/projectsGIFs/sortAlg.gif')}
-                                        alt="sortingAlg"
-                                    />
+                                    <Link to="/Projects/SortingAlgorithms" rel="noopener noreferrer">
+                                        <CardMedia
+                                            component="img"
+                                            height="160"
+                                            image={require('../assets/projectsGIFs/sortAlg.gif')}
+                                            alt="sortingAlg"
+                                        />
+                                    </Link>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
                                         Sorting algorithms visualized
@@ -234,12 +246,15 @@ function Projects() {
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345 }}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        image={require('../assets/projectsGIFs/graphAlg.gif')}
-                                        alt="graphAlg"
-                                    />
+                                    <Link to="/Projects/GraphsAlgorithms" rel="noopener noreferrer">
+                                        <CardMedia
+                                            component="img"
+                                            height="160"
+                                            image={require('../assets/projectsGIFs/graphAlg.gif')}
+                                            alt="graphAlg"
+                                            
+                                        />
+                                    </Link>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
                                         Graphs algorithms visualized
@@ -266,12 +281,14 @@ function Projects() {
                             >
                                 <div className="cardBox">
                                     <Card className="hover-shadow hover-zoom projectCard" sx={{ maxWidth: 345}}>
-                                    <CardMedia
-                                        component="img"
-                                        height="160"
-                                        image={require('../assets/projectsGIFs/terrainGenerator.gif')}
-                                        alt="graphAlg"
-                                    />
+                                    <Link to="/Projects/TerrainGeneration"  rel="noopener noreferrer">
+                                        <CardMedia
+                                            component="img"
+                                            height="160"
+                                            image={require('../assets/projectsGIFs/terrainGenerator.gif')}
+                                            alt="graphAlg"
+                                        />
+                                    </Link>
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
                                         Terrain generation
