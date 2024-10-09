@@ -50,10 +50,8 @@ function AboutMe() {
                     <Fade up>
                     <div className="descriptionContainer">
                         
-                        Hi, I'm Claudio Buono, a 23-year-old computer science student currently studying at the University of Salerno. I have a strong passion for almost every aspect of programming, from web development to video game development.
-                        <br></br>
-                        My journey in computer science began in high school with a dream to become a video game developer. While I am still pursuing that dream, I have also developed a keen interest in various other branches of computer science.
-                        
+                    Hi, I'm Claudio Buono, a 23-year-old computer science graduate, having recently earned my bachelor's degree. I have a deep passion for programming in all its forms, from web development to video game creation.
+                    <br></br> My journey in the world of computer science began during high school, driven by the dream of becoming a video game developer. While I continue to pursue that goal, my curiosity and love for technology have expanded to embrace various other fields within computer science, allowing me to grow as a versatile developer.
                     </div>
                     </Fade> 
                     <Fade up> 
