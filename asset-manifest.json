@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7520ab75.css",
-    "main.js": "/portfolio/static/js/main.bc644450.js",
+    "main.js": "/portfolio/static/js/main.0c059486.js",
     "static/js/453.9415623e.chunk.js": "/portfolio/static/js/453.9415623e.chunk.js",
     "static/media/graphAlg.gif": "/portfolio/static/media/graphAlg.4e19530d72f6268abab4.gif",
     "static/media/unisaEAT.gif": "/portfolio/static/media/unisaEAT.e69e6246156981e3e5f2.gif",
@@ -12,7 +12,7 @@
     "static/media/sortAlg.gif": "/portfolio/static/media/sortAlg.c1686ba50741cbcf441f.gif",
     "static/media/godOfWar.jpg": "/portfolio/static/media/godOfWar.5d4819150c6fe283b668.jpg",
     "static/media/me.png": "/portfolio/static/media/me.f999afb56bb7b59fd4d1.png",
-    "static/media/Buono-Claudio-CV.pdf": "/portfolio/static/media/Buono-Claudio-CV.9eca5c9b20d7fad36585.pdf",
+    "static/media/Buono-Claudio-CV.pdf": "/portfolio/static/media/Buono-Claudio-CV.230cbcc709107a649182.pdf",
     "static/media/ecommerce_gif.gif": "/portfolio/static/media/ecommerce_gif.cec4ae909f2b60f93693.gif",
     "static/media/react.png": "/portfolio/static/media/react.daae3e094212712ac94b.png",
     "static/media/ac2.jpg": "/portfolio/static/media/ac2.12776b1dbc18a9afd211.jpg",
@@ -25,11 +25,11 @@
     "static/media/blueprint.png": "/portfolio/static/media/blueprint.4372406f98e61b097930.png",
     "index.html": "/portfolio/index.html",
     "main.7520ab75.css.map": "/portfolio/static/css/main.7520ab75.css.map",
-    "main.bc644450.js.map": "/portfolio/static/js/main.bc644450.js.map",
+    "main.0c059486.js.map": "/portfolio/static/js/main.0c059486.js.map",
     "453.9415623e.chunk.js.map": "/portfolio/static/js/453.9415623e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7520ab75.css",
-    "static/js/main.bc644450.js"
+    "static/js/main.0c059486.js"
   ]
 }
