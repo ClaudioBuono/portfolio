@@ -22,7 +22,7 @@ function Projects() {
                      <div className="projectsBox">
                         <div className="boxTitle">
                             <img style={{marginBottom:'12px'}} src={require('../assets/genericIcons/blueprint.png')}/>                          
-                            <span>MY PROJECTS</span>
+                            <span>PERSONAL PROJECTS</span>
                         </div>
                         <div className="cardBoxContainer">
 
@@ -36,9 +36,8 @@ function Projects() {
                                         <CardMedia
                                             component="img"
                                             height="160"
-                                            image={require('../assets/projectsGIFs/wordwarp.png')}
-                                            alt="snake"
-                                            style={{objectPosition: "50% 80%"}}
+                                            image={require('../assets/projectsGIFs/word_confirmation.gif')}
+                                            alt="wordwarpvr"
                                         />
                                     </Link>
                                     <CardContent>
@@ -46,11 +45,13 @@ function Projects() {
                                         WordWarpVR
                                         </Typography>
                                         <Typography className='projectCardText'>
-                                        Virtual Reality videogame for english improvement, developed for meta quest 2 using XR development toolkit.
+                                        Virtual Reality video game for english improvement, developed as a project for my bachelor's thesis.
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button size="small">Coming soon</Button>
+                                        <Button size="small" target='_blank' href="https://github.com/ClaudioBuono/word-warp-vr">
+                                            <BsGithub size={20} style={{marginLeft:'5px',marginRight:'8px',marginBottom:'3px',color:'white'}}/>Explore
+                                        </Button>
                                     </CardActions>
                                     </Card>
                                 </div>
@@ -67,7 +68,7 @@ function Projects() {
                                             component="img"
                                             height="160"
                                             image={require('../assets/projectsGIFs/mini_steam_profile.png')}
-                                            alt="snake"
+                                            alt="steamprofile"
                                             style={{objectPosition: "50% 80%"}}
                                         />
                                     </Link>
@@ -113,7 +114,7 @@ function Projects() {
                                             component="img"
                                             height="160"
                                             image={require('../assets/projectsGIFs/mapGif.gif')}
-                                            alt="unisaEAT"
+                                            alt="evopath"
                                         />
                                     </Link>
                                     <CardContent>
@@ -177,7 +178,7 @@ function Projects() {
                                                 height="160"
                                                 width="10"
                                                 image={require('../assets/projectsGIFs/ecommerce_gif.gif')}
-                                                alt="peppe"
+                                                alt="gamenyx"
                                             />
                                     </Link>
                                     <CardContent>

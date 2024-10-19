@@ -51,7 +51,7 @@ function Homepage()
             <p><h4>Welcome to my portfolio!</h4></p>
             <p>I'm Claudio Buono, a passionate full stack developer with a focus on creating innovative and impactful digital experiences.
             <br/>
-              Here, you can explore my projects, my journey and skills.</p>
+              Here, you can explore my journey, skills and projects developed through the years.</p>
             <p id="funnyQuote">“Software and cathedrals are much the same — first we build them, then we pray.”</p>
           </div>
          
